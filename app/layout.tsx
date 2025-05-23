@@ -1,10 +1,6 @@
 import "./globals.css"
 import type { Metadata } from "next"
 
-import Footer from "@/components/footer"
-import Header from "@/components/header"
-
-
 
 export const metadata: Metadata = {
   title: "NextAuth.js Example",
