@@ -11,6 +11,8 @@ declare module "next-auth" {
     accessToken?: string; // Added custom property
     idToken?: string;     // Added custom property
     user: {
+      name: string
+      email: string; // If you add email to session.user
       id?: string; // If you add user ID to session.user
     } & DefaultSession["user"];
   }

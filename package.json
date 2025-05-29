@@ -20,9 +20,12 @@
     "next-auth": "^5.0.0-beta.28",
     "postcss": "^8.5.3",
     "prisma": "^6.8.2",
+    "prisma-zod-generator": "^0.8.13",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwind-merge": "^3.3.0"
+    "react-hook-form": "^7.56.4",
+    "tailwind-merge": "^3.3.0",
+    "zod": "^3.25.23"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
